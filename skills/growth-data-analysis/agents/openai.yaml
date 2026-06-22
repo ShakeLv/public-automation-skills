@@ -1,0 +1,4 @@
+interface:
+  display_name: "Growth Data Analysis"
+  short_description: "Analyze growth data exports"
+  default_prompt: "Use this skill to analyze sanitized growth datasets and produce clear findings."

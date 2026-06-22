@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stripe Ops Review"
+  short_description: "Review sanitized Stripe exports"
+  default_prompt: "Use this skill to analyze sanitized Stripe subscriptions, revenue, and billing events."

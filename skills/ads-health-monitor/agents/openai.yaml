@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ads Health Monitor"
+  short_description: "Review ad account health without secrets"
+  default_prompt: "Use this skill to inspect sanitized advertising performance exports and flag anomalies."
