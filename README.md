@@ -22,7 +22,7 @@ Output: ranked topic ideas, content angles, SEO metadata, and a Wix-ready publis
 
 Use this workflow to find GitHub-first distribution opportunities and prepare public-safe submission materials.
 
-Skill: `backlink-submission-ops`
+Skill: `github-outreach-ops`
 
 Safe inputs: public repository URLs, public product descriptions, awesome-list rules, submission guidelines.
 
@@ -57,7 +57,7 @@ Use trend-signal-tracker to review these public AI/SEO trend candidates and pick
 ```
 
 ```text
-Use backlink-submission-ops to qualify these GitHub awesome-list repositories and prepare safe PR copy.
+Use github-outreach-ops to qualify these GitHub awesome-list repositories and prepare safe PR copy.
 ```
 
 ```text
@@ -77,7 +77,7 @@ Use daily-growth-brief to turn today's market, Ads, Stripe, content, and outreac
 | `ads-health-monitor` | Prepare sanitized Google Ads management audits and proposed action queues. |
 | `stripe-ops-review` | Analyze sanitized Stripe revenue, subscription, churn, and cohort exports. |
 | `growth-data-analysis` | Turn sanitized growth datasets into findings and next tests. |
-| `backlink-submission-ops` | Find, qualify, and track GitHub-first outreach and public backlink submissions. |
+| `github-outreach-ops` | Find, qualify, and track GitHub-first outreach opportunities. |
 | `daily-growth-brief` | Produce Slack-ready internal daily reports from sanitized market, ads, revenue, and growth snapshots. |
 
 ## Safety Model
@@ -103,7 +103,7 @@ Each skill assumes one of three safe inputs:
 ```text
 skills/
   ads-health-monitor/
-  backlink-submission-ops/
+  github-outreach-ops/
   growth-data-analysis/
   stripe-ops-review/
   trend-signal-tracker/

@@ -1,6 +1,6 @@
 ---
-name: backlink-submission-ops
-description: Find, qualify, and track GitHub-first outreach opportunities such as awesome lists, AI tool repositories, developer directories, and community resource pages. Use when Codex needs to prepare pull request or submission materials without exposing private accounts, credentials, production analytics, or non-public company data.
+name: github-outreach-ops
+description: Find, qualify, and track GitHub-first outreach opportunities such as awesome lists, AI tool repositories, developer directories, and community resource pages. Use when Codex needs to prepare pull request or repository submission materials without exposing private accounts, credentials, production analytics, or non-public company data.
 ---
 
 # GitHub Outreach Ops

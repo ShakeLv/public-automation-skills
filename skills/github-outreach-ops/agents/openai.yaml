@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Outreach Ops"
+  short_description: "Manage GitHub-first outreach safely"
+  default_prompt: "Use this skill to find, qualify, and track GitHub-first outreach opportunities."
