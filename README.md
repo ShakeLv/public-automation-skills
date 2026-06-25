@@ -8,10 +8,10 @@ This repository is intentionally **not** a production automation repo. It contai
 
 | Skill | What it is for |
 | --- | --- |
+| `trend-signal-tracker` | Monitor public SEO and AI trend feeds, dedupe topics, score opportunities, and prepare content plans. |
 | `wix-blog-draft-ops` | Turn a content idea into a Wix-ready draft packet. |
-| `trend-signal-tracker` | Collect public trend signals and convert them into growth or content hypotheses. |
-| `ads-health-monitor` | Review sanitized ad performance exports and flag anomalies. |
-| `stripe-ops-review` | Analyze sanitized Stripe-like billing and subscription exports. |
+| `ads-health-monitor` | Prepare sanitized Google Ads management audits and proposed action queues. |
+| `stripe-ops-review` | Analyze sanitized Stripe revenue, subscription, churn, and cohort exports. |
 | `growth-data-analysis` | Turn sanitized growth datasets into findings and next tests. |
 | `backlink-submission-ops` | Find, qualify, and track public backlink or directory submissions. |
 

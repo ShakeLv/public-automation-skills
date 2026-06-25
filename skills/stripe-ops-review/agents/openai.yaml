@@ -1,4 +1,4 @@
 interface:
-  display_name: "Stripe Ops Review"
-  short_description: "Review sanitized Stripe exports"
-  default_prompt: "Use this skill to analyze sanitized Stripe subscriptions, revenue, and billing events."
+  display_name: "Stripe Data Analysis"
+  short_description: "Analyze sanitized Stripe datasets"
+  default_prompt: "Use this skill to analyze sanitized Stripe revenue, subscription, churn, and cohort exports."

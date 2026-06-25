@@ -1,4 +1,4 @@
 interface:
-  display_name: "Trend Signal Tracker"
-  short_description: "Track public trend signals safely"
-  default_prompt: "Use this skill to collect public trend signals and turn them into content or growth hypotheses."
+  display_name: "SEO Trend Monitor"
+  short_description: "Monitor public SEO and AI trend feeds safely"
+  default_prompt: "Use this skill to monitor public SEO and AI trend feeds, dedupe topics, and prepare content opportunities."

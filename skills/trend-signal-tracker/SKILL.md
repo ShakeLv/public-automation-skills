@@ -1,39 +1,51 @@
 ---
 name: trend-signal-tracker
-description: Collect and summarize public trend signals from search results, social discussions, directories, changelogs, GitHub repositories, and news-like sources. Use when Codex needs to identify public growth or content opportunities without using private analytics, paid account data, or production credentials.
+description: Monitor public SEO and AI trend feeds, dedupe topics, score opportunities, and prepare content or growth actions from sanitized snapshots. Use when Codex needs to run an AI-hotspot or SEO trend-monitor workflow without exposing private APIs, cloud storage, CMS IDs, production paths, or credentials.
 ---
 
-# Trend Signal Tracker
+# SEO Trend Monitor
 
 ## Safety Boundary
 
-Use public sources or user-provided sanitized exports only. Do not use private dashboards, hidden community logs, customer data, personal inboxes, paid tools, or authenticated accounts unless the user explicitly provides a sanitized export.
+Use public pages, public APIs, or user-provided sanitized snapshots only. Do not expose live API endpoints, cloud bucket names, CMS post IDs, account IDs, local paths, cookies, tokens, or production logs.
+
+Do not publish, claim, modify, or reconcile live production state from this public skill. Produce a plan or sanitized output packet only.
 
 ## Workflow
 
-1. Define the market, audience, and time window.
-2. Gather signals from public sources:
-   - search results and related queries
-   - GitHub repositories and issues
-   - product directories
-   - public community posts
-   - changelogs and release notes
-3. Cluster signals into themes. Separate durable demand from short-lived noise.
-4. Score each theme:
-   - audience relevance
-   - urgency
-   - content angle
-   - distribution path
+1. Load trend candidates from a public source or sanitized snapshot.
+2. Normalize each candidate:
+   - title
+   - source URL
+   - source type
+   - timestamp
+   - short summary
+   - product or market angle
+3. Dedupe against prior public topics. Treat close paraphrases as the same topic.
+4. Score each candidate:
+   - relevance to target audience
+   - recency
    - evidence quality
-5. Produce suggested next actions: article ideas, landing page tests, outreach targets, or monitoring queries.
+   - search or social demand
+   - content angle
+   - distribution fit
+5. Select the best topics and generate a publish-ready planning packet:
+   - headline angle
+   - keyword
+   - slug
+   - article thesis
+   - supporting sources
+   - risk notes
+6. Return status in a table. Mark topics as `candidate`, `selected`, `drafted`, `published`, `skipped`, or `failed`.
 
 ## Output
 
 Return:
 
-- `top_signals`
-- `evidence`
-- `why_it_matters`
+- `top_topics`
+- `dedupe_notes`
+- `scores`
 - `content_angles`
-- `growth_tests`
-- `risks_or_unknowns`
+- `distribution_plan`
+- `status_table`
+- `safety_notes`
