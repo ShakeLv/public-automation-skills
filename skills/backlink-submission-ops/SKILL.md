@@ -1,9 +1,9 @@
 ---
 name: backlink-submission-ops
-description: Find, qualify, and track public backlink, directory, awesome-list, marketplace, and community submission opportunities. Use when Codex needs to prepare outreach or submission materials without exposing private accounts, credentials, production analytics, or non-public company data.
+description: Find, qualify, and track GitHub-first outreach opportunities such as awesome lists, AI tool repositories, developer directories, and community resource pages. Use when Codex needs to prepare pull request or submission materials without exposing private accounts, credentials, production analytics, or non-public company data.
 ---
 
-# Backlink Submission Ops
+# GitHub Outreach Ops
 
 ## Safety Boundary
 
@@ -13,21 +13,21 @@ Do not expose private metrics, customer names, internal roadmap, tracking links 
 
 ## Workflow
 
-1. Define the product category, audience, and acceptable submission types.
-2. Find public opportunities:
-   - tool directories
+1. Define the product category, audience, and acceptable outreach types.
+2. Find public opportunities, GitHub first:
    - awesome lists
-   - GitHub repositories
-   - product marketplaces
+   - AI tool repositories
+   - developer resource directories
    - community resource pages
+   - product directories when they clearly fit the same audience
 3. Score each opportunity:
    - relevance
    - authority
    - submission friction
    - policy fit
    - expected traffic quality
-4. Draft safe submission copy with no private claims.
-5. Track status: found, qualified, drafted, submitted, accepted, rejected, follow-up.
+4. Draft safe PR or submission copy with no private claims.
+5. Track status: found, qualified, drafted, PR opened, submitted, accepted, rejected, follow-up.
 
 ## Output
 

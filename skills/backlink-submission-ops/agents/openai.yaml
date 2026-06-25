@@ -1,4 +1,4 @@
 interface:
-  display_name: "Backlink Submission Ops"
-  short_description: "Manage public backlink submissions"
-  default_prompt: "Use this skill to find, qualify, and track public backlink or directory submission opportunities."
+  display_name: "GitHub Outreach Ops"
+  short_description: "Manage GitHub-first outreach safely"
+  default_prompt: "Use this skill to find, qualify, and track GitHub-first outreach or public backlink submission opportunities."

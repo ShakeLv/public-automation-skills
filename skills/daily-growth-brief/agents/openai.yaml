@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily Growth Brief"
+  short_description: "Draft Slack-ready daily growth reports"
+  default_prompt: "Use this skill to prepare a Slack-ready daily report from sanitized market, ads, Stripe, growth, and content snapshots."

@@ -1,8 +1,17 @@
 # Public Automation Skills
 
-Sanitized Codex skills for content operations, growth analysis, ad-health review, billing review, data analysis, and backlink submission workflows.
+Sanitized Codex skills for four public-safe automation workflows: content production, GitHub outreach, data management, and internal daily briefs.
 
 This repository is intentionally **not** a production automation repo. It contains reusable agent instructions and public-safe operating patterns only.
+
+## Workflow Map
+
+| Workflow | Skills | What it is for |
+| --- | --- | --- |
+| Content production pipeline | `trend-signal-tracker`, `wix-blog-draft-ops` | Monitor SEO/AI trend signals, select topics, draft content packets, and prepare Wix-ready publishing assets. |
+| GitHub outreach | `backlink-submission-ops` | Find relevant GitHub awesome lists, directories, and community repositories, then prepare safe PR/submission copy. |
+| Data management | `ads-health-monitor`, `stripe-ops-review`, `growth-data-analysis` | Review sanitized Google Ads, Stripe, and growth exports, then turn data into findings and action queues. |
+| Internal daily brief | `daily-growth-brief` | Turn market signals, ad movement, revenue signals, and growth notes into a Slack-ready daily report. |
 
 ## Skills
 
@@ -13,7 +22,8 @@ This repository is intentionally **not** a production automation repo. It contai
 | `ads-health-monitor` | Prepare sanitized Google Ads management audits and proposed action queues. |
 | `stripe-ops-review` | Analyze sanitized Stripe revenue, subscription, churn, and cohort exports. |
 | `growth-data-analysis` | Turn sanitized growth datasets into findings and next tests. |
-| `backlink-submission-ops` | Find, qualify, and track public backlink or directory submissions. |
+| `backlink-submission-ops` | Find, qualify, and track GitHub-first outreach and public backlink submissions. |
+| `daily-growth-brief` | Produce Slack-ready internal daily reports from sanitized market, ads, revenue, and growth snapshots. |
 
 ## Safety Model
 
@@ -43,6 +53,7 @@ skills/
   stripe-ops-review/
   trend-signal-tracker/
   wix-blog-draft-ops/
+  daily-growth-brief/
 ```
 
 Each skill folder contains:
