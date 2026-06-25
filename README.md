@@ -1,5 +1,7 @@
 # Public Automation Skills
 
+[English](README.md) / [中文](README.zh-CN.md)
+
 Sanitized Codex skills for four public-safe automation workflows: content production, GitHub outreach, data management, and internal daily briefs.
 
 This repository is intentionally **not** a production automation repo. It contains reusable agent instructions and public-safe operating patterns only.
