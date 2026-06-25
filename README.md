@@ -6,14 +6,47 @@ This repository is intentionally **not** a production automation repo. It contai
 
 The goal is simple: someone should be able to copy a skill folder, give it public or sanitized inputs, and get a useful output without knowing the original private environment.
 
-## Workflow Map
+## Workflows
 
-| Workflow | Skills | What it is for |
-| --- | --- | --- |
-| Content production pipeline | `trend-signal-tracker`, `wix-blog-pipeline` | Monitor SEO/AI trend signals, select topics, build content briefs, and prepare Wix-ready publishing assets. |
-| GitHub outreach | `backlink-submission-ops` | Find relevant GitHub awesome lists, directories, and community repositories, then prepare safe PR/submission copy. |
-| Data management | `ads-health-monitor`, `stripe-ops-review`, `growth-data-analysis` | Review sanitized Google Ads, Stripe, and growth exports, then turn data into findings and action queues. |
-| Internal daily brief | `daily-growth-brief` | Turn market signals, ad movement, revenue signals, and growth notes into a Slack-ready daily report. |
+### Content Production Pipeline
+
+Use this workflow to turn public SEO and AI trend signals into publishable content assets.
+
+Skills: `trend-signal-tracker`, `wix-blog-pipeline`
+
+Safe inputs: public trend URLs, sanitized topic snapshots, article outlines, public reference links.
+
+Output: ranked topic ideas, content angles, SEO metadata, and a Wix-ready publishing package.
+
+### GitHub Outreach
+
+Use this workflow to find GitHub-first distribution opportunities and prepare public-safe submission materials.
+
+Skill: `backlink-submission-ops`
+
+Safe inputs: public repository URLs, public product descriptions, awesome-list rules, submission guidelines.
+
+Output: qualified targets, recommended submission path, PR or listing copy, and a tracking table.
+
+### Data Management
+
+Use this workflow to review acquisition, revenue, and billing data without connecting to live production systems.
+
+Skills: `ads-health-monitor`, `stripe-ops-review`, `growth-data-analysis`
+
+Safe inputs: sanitized Google Ads exports, sanitized Stripe exports, aggregate growth tables, manually summarized metrics.
+
+Output: metric snapshots, anomalies, likely causes, data quality notes, and proposed action queues.
+
+### Internal Daily Brief
+
+Use this workflow to turn daily market, ads, revenue, content, and outreach movement into a Slack-ready report.
+
+Skill: `daily-growth-brief`
+
+Safe inputs: sanitized daily notes, public market signals, aggregate Ads/Stripe movement, content status, outreach status.
+
+Output: Slack-ready brief, numbers worth watching, queued actions, blockers, and data quality notes.
 
 ## Quick Start
 
@@ -34,15 +67,6 @@ Use ads-health-monitor and stripe-ops-review to review these sanitized exports a
 ```text
 Use daily-growth-brief to turn today's market, Ads, Stripe, content, and outreach snapshots into a Slack-ready report.
 ```
-
-## Input And Output Shape
-
-| Workflow | Safe input | Output |
-| --- | --- | --- |
-| Content production pipeline | Public trend URLs, sanitized topic snapshots, article outlines | Topic scores, content angles, Wix-ready publishing package |
-| GitHub outreach | Public repository URLs, public product description, submission rules | Qualified targets, PR/submission copy, tracking table |
-| Data management | Sanitized Google Ads, Stripe, or growth exports | Metric snapshot, anomalies, likely causes, proposed actions |
-| Internal daily brief | Sanitized daily notes from market monitoring, ads, revenue, content, and outreach | Slack-ready brief, action queue, blockers, data quality notes |
 
 ## Skills
 
