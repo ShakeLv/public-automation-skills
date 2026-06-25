@@ -9,7 +9,18 @@ description: Monitor public SEO and AI trend feeds, dedupe topics, score opportu
 
 Use public pages, public APIs, or user-provided sanitized snapshots only. Do not expose live API endpoints, cloud bucket names, CMS post IDs, account IDs, local paths, cookies, tokens, or production logs.
 
-Do not publish, claim, modify, or reconcile live production state from this public skill. Produce a plan or sanitized output packet only.
+Do not publish, claim, modify, or reconcile live production state from this public skill. Produce a public-safe topic plan only.
+
+## Safe Inputs
+
+- public trend URLs
+- public search, directory, or news results
+- sanitized topic snapshots
+- manually pasted trend notes with private fields removed
+
+## What It Produces
+
+A ranked topic list with evidence, SEO/content angles, distribution notes, and a status table that another operator can review or feed into a content pipeline.
 
 ## Workflow
 
@@ -29,14 +40,14 @@ Do not publish, claim, modify, or reconcile live production state from this publ
    - search or social demand
    - content angle
    - distribution fit
-5. Select the best topics and generate a publish-ready planning packet:
+5. Select the best topics and generate a publish-ready topic plan:
    - headline angle
    - keyword
    - slug
    - article thesis
    - supporting sources
    - risk notes
-6. Return status in a table. Mark topics as `candidate`, `selected`, `drafted`, `published`, `skipped`, or `failed`.
+6. Return status in a table. Mark topics as `candidate`, `selected`, `prepared`, `published`, `skipped`, or `failed`.
 
 ## Output
 

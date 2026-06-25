@@ -11,6 +11,17 @@ Use only sanitized CSVs, spreadsheets, or pasted tables. Do not request secret k
 
 Do not cancel, refund, retry, modify, or create subscriptions from this public skill.
 
+## Safe Inputs
+
+- sanitized Stripe exports
+- aggregate subscription, invoice, payment, refund, or cohort tables
+- manually pasted revenue movement summaries
+- plan or product names with private customer fields removed
+
+## What It Produces
+
+A revenue and subscription analysis with metrics, trend summary, cohort or plan notes, exceptions, data quality notes, and manual follow-ups.
+
 ## Workflow
 
 1. Identify the export type: subscriptions, invoices, payments, refunds, products, coupons, or events.

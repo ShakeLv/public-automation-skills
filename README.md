@@ -4,21 +4,52 @@ Sanitized Codex skills for four public-safe automation workflows: content produc
 
 This repository is intentionally **not** a production automation repo. It contains reusable agent instructions and public-safe operating patterns only.
 
+The goal is simple: someone should be able to copy a skill folder, give it public or sanitized inputs, and get a useful output without knowing the original private environment.
+
 ## Workflow Map
 
 | Workflow | Skills | What it is for |
 | --- | --- | --- |
-| Content production pipeline | `trend-signal-tracker`, `wix-blog-draft-ops` | Monitor SEO/AI trend signals, select topics, draft content packets, and prepare Wix-ready publishing assets. |
+| Content production pipeline | `trend-signal-tracker`, `wix-blog-pipeline` | Monitor SEO/AI trend signals, select topics, build content briefs, and prepare Wix-ready publishing assets. |
 | GitHub outreach | `backlink-submission-ops` | Find relevant GitHub awesome lists, directories, and community repositories, then prepare safe PR/submission copy. |
 | Data management | `ads-health-monitor`, `stripe-ops-review`, `growth-data-analysis` | Review sanitized Google Ads, Stripe, and growth exports, then turn data into findings and action queues. |
 | Internal daily brief | `daily-growth-brief` | Turn market signals, ad movement, revenue signals, and growth notes into a Slack-ready daily report. |
+
+## Quick Start
+
+Pick the workflow first, then load the matching skill folder.
+
+```text
+Use trend-signal-tracker to review these public AI/SEO trend candidates and pick five article angles.
+```
+
+```text
+Use backlink-submission-ops to qualify these GitHub awesome-list repositories and prepare safe PR copy.
+```
+
+```text
+Use ads-health-monitor and stripe-ops-review to review these sanitized exports and prepare today's action queue.
+```
+
+```text
+Use daily-growth-brief to turn today's market, Ads, Stripe, content, and outreach snapshots into a Slack-ready report.
+```
+
+## Input And Output Shape
+
+| Workflow | Safe input | Output |
+| --- | --- | --- |
+| Content production pipeline | Public trend URLs, sanitized topic snapshots, article outlines | Topic scores, content angles, Wix-ready publishing package |
+| GitHub outreach | Public repository URLs, public product description, submission rules | Qualified targets, PR/submission copy, tracking table |
+| Data management | Sanitized Google Ads, Stripe, or growth exports | Metric snapshot, anomalies, likely causes, proposed actions |
+| Internal daily brief | Sanitized daily notes from market monitoring, ads, revenue, content, and outreach | Slack-ready brief, action queue, blockers, data quality notes |
 
 ## Skills
 
 | Skill | What it is for |
 | --- | --- |
 | `trend-signal-tracker` | Monitor public SEO and AI trend feeds, dedupe topics, score opportunities, and prepare content plans. |
-| `wix-blog-draft-ops` | Turn a content idea into a Wix-ready draft packet. |
+| `wix-blog-pipeline` | Turn a content idea into a Wix-ready publishing package. |
 | `ads-health-monitor` | Prepare sanitized Google Ads management audits and proposed action queues. |
 | `stripe-ops-review` | Analyze sanitized Stripe revenue, subscription, churn, and cohort exports. |
 | `growth-data-analysis` | Turn sanitized growth datasets into findings and next tests. |
@@ -52,7 +83,7 @@ skills/
   growth-data-analysis/
   stripe-ops-review/
   trend-signal-tracker/
-  wix-blog-draft-ops/
+  wix-blog-pipeline/
   daily-growth-brief/
 ```
 

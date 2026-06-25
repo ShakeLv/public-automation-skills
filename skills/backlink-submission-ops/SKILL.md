@@ -11,6 +11,17 @@ Use public pages and public product descriptions only. Do not submit forms, open
 
 Do not expose private metrics, customer names, internal roadmap, tracking links with private parameters, credentials, or account-specific screenshots.
 
+## Safe Inputs
+
+- public GitHub repository URLs
+- public product descriptions
+- public submission rules
+- sanitized outreach status tables
+
+## What It Produces
+
+A qualified outreach list, recommended submission path, public-safe PR or listing copy, required assets, and a status table.
+
 ## Workflow
 
 1. Define the product category, audience, and acceptable outreach types.
@@ -26,8 +37,8 @@ Do not expose private metrics, customer names, internal roadmap, tracking links 
    - submission friction
    - policy fit
    - expected traffic quality
-4. Draft safe PR or submission copy with no private claims.
-5. Track status: found, qualified, drafted, PR opened, submitted, accepted, rejected, follow-up.
+4. Prepare safe PR or submission copy with no private claims.
+5. Track status: found, qualified, prepared, PR opened, submitted, accepted, rejected, follow-up.
 
 ## Output
 

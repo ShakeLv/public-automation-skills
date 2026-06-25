@@ -1,4 +1,0 @@
-interface:
-  display_name: "Wix Blog Draft Ops"
-  short_description: "Draft sanitized Wix blog workflows"
-  default_prompt: "Use this skill to plan a Wix blog draft workflow without exposing credentials."

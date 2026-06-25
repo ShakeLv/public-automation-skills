@@ -11,6 +11,19 @@ Use sanitized summaries, exported tables, or public signals only. Do not include
 
 This public skill prepares a report. It does not post to Slack, change ads, modify billing systems, or reconcile production state unless the user explicitly moves to a private operational workflow.
 
+## Safe Inputs
+
+- sanitized market or SEO monitoring notes
+- sanitized Google Ads movement summary
+- sanitized Stripe revenue or subscription summary
+- content pipeline status
+- GitHub outreach status
+- blockers or decisions needed
+
+## What It Produces
+
+A Slack-ready daily report with the day's meaningful changes, numbers worth watching, queued actions, blockers, and data quality notes.
+
 ## Workflow
 
 1. Gather the day's safe inputs:

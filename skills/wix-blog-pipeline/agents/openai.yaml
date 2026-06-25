@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wix Blog Pipeline"
+  short_description: "Prepare Wix-ready blog publishing packages"
+  default_prompt: "Use this skill to prepare a Wix-ready publishing package without exposing credentials."

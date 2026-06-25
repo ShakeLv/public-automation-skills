@@ -9,6 +9,17 @@ description: Analyze sanitized growth datasets such as acquisition, activation, 
 
 Work from sanitized files or pasted tables. Do not connect to production databases, warehouses, analytics tools, internal APIs, or private dashboards. Do not expose user-level identifiers, emails, IP addresses, device IDs, payment identifiers, or raw event logs.
 
+## Safe Inputs
+
+- sanitized CSV or spreadsheet exports
+- pasted aggregate tables
+- public benchmark tables
+- manually summarized growth metrics
+
+## What It Produces
+
+A concise analysis with data quality notes, key findings, supporting tables, interpretation, next tests, and caveats.
+
 ## Workflow
 
 1. State the question in one sentence.

@@ -11,6 +11,17 @@ Use sanitized exports only. Never expose customer IDs, account IDs, billing deta
 
 Do not change bids, budgets, targeting, conversion goals, tags, imports, scripts, or campaigns from this public skill. Any live-account change must be written as a proposed action requiring human approval.
 
+## Safe Inputs
+
+- sanitized Google Ads exports
+- aggregate campaign, search term, location, or device tables
+- manually pasted daily movement summaries
+- public landing page or offer context
+
+## What It Produces
+
+An account health review with anomalies, waste or opportunity areas, likely causes, and a proposed action queue that requires human approval before any live change.
+
 ## Workflow
 
 1. Confirm the export schema, date range, currency, and attribution window.
